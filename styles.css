@@ -1,0 +1,59 @@
+/* Ce fichier CSS reset est utilisé : https://schnaps.it/archive/css/reset.css */
+
+@media (min-width: 540px) {
+    .website {
+     display: grid;
+     grid-template-columns: 20% 1fr;
+   }
+ }
+ .header {
+   text-align: center;
+   font-size: 4em;
+   background-color: black;
+ 
+ }
+ 
+ .header,
+ .footer {
+   background-color: black;
+   grid-column: 1 / -1;
+ }
+ 
+ /* Met en valeur le lien de la page en cours */
+ .active {
+   font-weight: bold;
+ }
+ 
+ /* Pour ne pas avoir à mettre des <br> partout */
+ label {
+   display:block;
+ }
+ 
+ /* Marge dans les champs de saisie */
+ input, textarea {
+   padding : 3px;
+ }
+ 
+ /* Change l'apparence du lien quand on le survole */
+ a:hover {
+   text-decoration:none;
+   color : red;
+ }
+ 
+ .navigation-list {
+   display: grid;
+   gap: .5rem;
+ }
+ 
+ /* Personnalise le pied de page */
+ .footer {
+   text-align: center;
+   font-style: italic;
+ }
+ 
+ /* Bonus : Toute la hauteur ? */
+ // .website {min-height: 100vh;}
+ 
+ /* Bonus : Centré ? */
+ // .website {max-width: 800px; margin: 0 auto;}
+ 
