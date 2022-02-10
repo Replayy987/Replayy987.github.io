@@ -103,7 +103,7 @@ li a{
   color: white;
 }
 article {
-  background:;
+  background: #ccc;
   padding: 1rem;
 }
 [class*="grid"] > * {

@@ -1,0 +1,460 @@
+body 
+{
+	background: url(images/tonygreg.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: 0;
+	overflow-x: hidden;
+}
+header
+{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+header a
+{
+	text-decoration: none;
+	color: white;
+}
+header h1
+{
+	box-shadow: 0 0 0px;
+	-webkit-transition: all .5s cubic-bezier(.6,2, .4,1);
+	-moz-transition: all .5s cubic-bezier(.6,2, .4,1);
+	-ms-transition: all .5s cubic-bezier(.6,2, .4,1);
+	-o-transition: all .5s cubic-bezier(.6,2, .4,1);
+	transition: all .5s cubic-bezier(.6,2, .4,1);
+}
+header h1:hover
+{
+	z-index: 5;
+	-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		transform: scale(1.5);
+	box-shadow: 0 0 0px;
+}
+header h1:hover
+{
+	-webkit-filter: grayscale(1) blur(5px);
+	-moz-filter: grayscale(1) blur(5px);
+	-ms-filter: grayscale(1) blur(5px);
+	-o-filter: grayscale(1) blur(5px);
+	filter: grayscale(1) blur(5px);
+}
+.header h1
+{
+	text-align: center;
+	font-size: 100px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.navigation
+{
+	width: 15.5%;
+	height: 100%;
+	position: relative;
+	float: right;
+	margin: 0;
+}
+.navigation ul
+{
+	padding-left: 0px;
+	padding-top: 8px;
+}
+.navigation li 
+{
+	margin-top: 20px;
+	list-style: none;
+}
+.navigation a
+{
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	width: 200px;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+.navigation a:hover
+{
+	color: white;
+}
+.navigation a:visited
+{
+	color: white;
+}
+.navigation a:visited:hover
+{
+	color: wheat;
+}
+.main
+{
+	display: block;
+	height: 100%;
+	width: 400px;
+}
+.main h1
+{
+	display: inline-block;
+	font-size: 50px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-top: 140px;
+	color: wheat;
+}
+.main p
+{
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: wheat;
+}
+.main a
+{
+	color: blue;
+}
+.main a:hover
+{
+	color: white;
+}
+.main a:visited
+{
+	color: blue;
+}
+.main a:visited:hover
+{
+	color: wheat;
+}
+.footer
+{
+	display: block;
+	position: relative;
+	margin-top: 267px;
+	margin-left: 0px;
+	text-align: center;
+	width: 100%;
+	color: wheat;
+}
+.footer p
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+}
+.footer a
+{
+	color: blue;
+}
+.footer a:hover
+{
+	color: gray;
+}
+.footer a:visited
+{
+	color: blue;
+}
+.footer a:visited:hover
+{
+	color: wheat;
+}
+.mainhistorique
+{
+	display: block;
+	height: 100%;
+	width: 1050px;
+	color: wheat;
+}
+.mainhistorique h1
+{
+	display: inline-block;
+	font-size: 100px;
+	margin-left: 30px;
+}
+.mainhistorique p
+{
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+.footerhistorique
+{
+	display: block;
+	position: relative;
+	margin-top: 100px;
+	text-align: center;
+	width: 100%;
+}
+.footerhistorique p
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color: wheat;
+}
+.footerhistorique a:hover
+{
+	color: gray;
+}
+.footerhistorique a:visited
+{
+	color: blue;
+}
+.footerhistorique a:visited:hover
+{
+	color: white;
+}
+.mainregle
+{
+	display: block;
+	height: 100%;
+	width: 1050px;
+}
+.mainregle h1
+{
+	display: inline-block;
+	font-size: 50px;
+	margin-left: 30px;
+	color: wheat;
+}
+.mainregle p
+{
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	color: wheat;
+}
+.mainregle h2
+{
+	display: inline-block;
+	margin-left: 30px;
+	color: wheat;
+}
+.mainregle ul
+{
+	display: inline-block;
+	border: 2px solid wheat;
+	border-width: 100%;
+	border-radius: 20px;
+	padding: 0;
+	margin-left: 100px;
+	margin-top: -10px;
+	padding: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.mainregle li
+{
+	font-size: 20px;
+	list-style: none;
+	color: wheat;
+}
+.footerregle
+{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+.footerregle p
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color: wheat;
+}
+.footerregle a:hover
+{
+	color: white;
+}
+.footerregle a:visited
+{
+	color: blue;
+}
+.footerregle a:visited:hover
+{
+	color: white;
+}
+.mainentraineur
+{
+	display: block;
+	height: 100%;
+	width: 800px;
+}
+.mainentraineur ul
+{
+	display: block;
+	margin-right: 350px;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.mainentraineur li
+{
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	padding-top: 10px;
+	color: white;
+}
+.mainentraineur h1
+{
+	display: inline-block;
+	font-size: 50px;
+	margin-left: 30px;
+	color: white;
+}
+.mainentraineur p
+{
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 130px;
+}
+.footerentraineur
+{
+	display: block;
+	position: relative;
+	margin-top: 312px;
+	text-align: center;
+	width: 100%;
+}
+.footerentraineur p
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color: wheat;
+}
+.footerentraineur a:hover
+{
+	color: white;
+}
+.footerentraineur a:visited
+{
+	color: blue;
+}
+.footerentraineur a:visited:hover
+{
+	color: white;
+}
+.mainlieu
+{
+	display: block;
+	height: 100%;
+	width: 500px;
+}
+.mainlieu h1
+{
+	display: inline-block;
+	font-size: 50px;
+	margin-left: 30px;
+	color: wheat;
+}
+.mainlieu p
+{
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	color: wheat;
+}
+.footerlieu
+{
+	display: block;
+	position: relative;
+	margin-top: 312px;
+	text-align: center;
+	width: 100%;
+}
+.footerlieu p
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color: wheat;
+}
+.footerlieu a:hover
+{
+	color: white;
+}
+.footerlieu a:visited
+{
+	color: blue;
+}
+.footerlieu a:visited:hover
+{
+	color: white;
+}
+.maincontact
+{
+	display: block;
+	height: 100%;
+	width: 500px;
+}
+.maincontact form
+{
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 280px;
+	margin-left: 70px;
+}
+.maincontact label
+{
+	display: block;
+}
+.maincontact h1
+{
+	display: inline-block;
+	font-size: 50px;
+	margin-left: 70px;
+	color: wheat;
+}
+.maincontact p
+{
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.footercontact
+{
+	display: block;
+	position: relative;
+	margin-top: 67px;
+	text-align: center;
+	width: 100%;
+}
+.footercontact p
+{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color: wheat;
+}
+.footercontact a:hover
+{
+	color: white;
+}
+.footercontact a:visited
+{
+	color: blue;
+}
+.footercontact a:visited:hover
+{
+	color: white;
+}

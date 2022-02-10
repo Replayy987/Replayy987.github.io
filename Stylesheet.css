@@ -1,6 +1,6 @@
-body
+body 
 {
-	background: url(images/NBA.jpg) ;
+	background: url(images/panier.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
 	margin: 0;
@@ -15,7 +15,7 @@ header
 header a
 {
 	text-decoration: none;
-	color: black;
+	color: wheat;
 }
 header h1
 {
@@ -85,11 +85,11 @@ header h1:hover
 }
 .navigation a:visited
 {
-	color: black;
+	color: wheat;
 }
 .navigation a:visited:hover
 {
-	color: white;
+	color: black;
 }
 .main
 {
@@ -101,7 +101,10 @@ header h1:hover
 {
 	display: inline-block;
 	font-size: 50px;
-	margin-left: 30px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-top: 140px;
+	color: wheat;
 }
 .main p
 {
@@ -109,6 +112,7 @@ header h1:hover
 	font-size: 25px;
 	margin-top: 10px;
 	margin-left: 10px;
+	color: wheat;
 }
 .main a
 {
@@ -120,19 +124,21 @@ header h1:hover
 }
 .main a:visited
 {
-	color: black;
+	color: blue;
 }
 .main a:visited:hover
 {
-	color: white;
+	color: wheat;
 }
 .footer
 {
 	display: block;
 	position: relative;
 	margin-top: 267px;
+	margin-left: 0px;
 	text-align: center;
 	width: 100%;
+	color: wheat;
 }
 .footer p
 {
@@ -151,22 +157,23 @@ header h1:hover
 }
 .footer a:visited
 {
-	color: black;
+	color: blue;
 }
 .footer a:visited:hover
 {
-	color: white;
+	color: wheat;
 }
 .mainhistorique
 {
 	display: block;
 	height: 100%;
 	width: 1050px;
+	color: wheat;
 }
 .mainhistorique h1
 {
 	display: inline-block;
-	font-size: 50px;
+	font-size: 100px;
 	margin-left: 30px;
 }
 .mainhistorique p
@@ -179,7 +186,7 @@ header h1:hover
 {
 	display: block;
 	position: relative;
-	margin-top: 10px;
+	margin-top: 100px;
 	text-align: center;
 	width: 100%;
 }
@@ -189,6 +196,7 @@ header h1:hover
 	margin: 0;
 	text-align: center;
 	font-weight: bold;
+	color: wheat;
 }
 .footerhistorique a:hover
 {
@@ -196,7 +204,7 @@ header h1:hover
 }
 .footerhistorique a:visited
 {
-	color: black;
+	color: blue;
 }
 .footerhistorique a:visited:hover
 {
@@ -213,22 +221,25 @@ header h1:hover
 	display: inline-block;
 	font-size: 50px;
 	margin-left: 30px;
+	color: wheat;
 }
 .mainregle p
 {
 	display: inline-block;
 	margin-top: 0px;
 	margin-bottom: 2px;
+	color: wheat;
 }
 .mainregle h2
 {
 	display: inline-block;
 	margin-left: 30px;
+	color: wheat;
 }
 .mainregle ul
 {
 	display: inline-block;
-	border: 2px solid black;
+	border: 2px solid wheat;
 	border-width: 100%;
 	border-radius: 20px;
 	padding: 0;
@@ -242,6 +253,7 @@ header h1:hover
 {
 	font-size: 20px;
 	list-style: none;
+	color: wheat;
 }
 .footerregle
 {
@@ -257,6 +269,7 @@ header h1:hover
 	margin: 0;
 	text-align: center;
 	font-weight: bold;
+	color: wheat;
 }
 .footerregle a:hover
 {
@@ -264,7 +277,7 @@ header h1:hover
 }
 .footerregle a:visited
 {
-	color: black;
+	color: blue;
 }
 .footerregle a:visited:hover
 {
@@ -280,7 +293,7 @@ header h1:hover
 {
 	display: block;
 	margin-right: 350px;
-	border: 2px solid black;
+	border: 2px solid wheat;
 	border-radius: 20px;
 	margin-left: 10px;
 	margin-top: 0px;
@@ -291,12 +304,14 @@ header h1:hover
 	list-style: none;
 	font-size: 20px;
 	padding-top: 10px;
+	color: wheat;
 }
 .mainentraineur h1
 {
 	display: inline-block;
 	font-size: 50px;
 	margin-left: 30px;
+	color: wheat;
 }
 .mainentraineur p
 {
@@ -319,6 +334,7 @@ header h1:hover
 	margin: 0;
 	text-align: center;
 	font-weight: bold;
+	color: wheat;
 }
 .footerentraineur a:hover
 {
@@ -326,7 +342,7 @@ header h1:hover
 }
 .footerentraineur a:visited
 {
-	color: black;
+	color: blue;
 }
 .footerentraineur a:visited:hover
 {
@@ -343,6 +359,7 @@ header h1:hover
 	display: inline-block;
 	font-size: 50px;
 	margin-left: 30px;
+	color: wheat;
 }
 .mainlieu p
 {
@@ -350,6 +367,7 @@ header h1:hover
 	margin-top: 0px;
 	margin-bottom: 10px;
 	margin-left: 100px;
+	color: wheat;
 }
 .footerlieu
 {
@@ -365,6 +383,7 @@ header h1:hover
 	margin: 0;
 	text-align: center;
 	font-weight: bold;
+	color: wheat;
 }
 .footerlieu a:hover
 {
@@ -372,7 +391,7 @@ header h1:hover
 }
 .footerlieu a:visited
 {
-	color: black;
+	color: blue;
 }
 .footerlieu a:visited:hover
 {
@@ -401,6 +420,7 @@ header h1:hover
 	display: inline-block;
 	font-size: 50px;
 	margin-left: 70px;
+	color: wheat;
 }
 .maincontact p
 {
@@ -424,6 +444,7 @@ header h1:hover
 	margin: 0;
 	text-align: center;
 	font-weight: bold;
+	color: wheat;
 }
 .footercontact a:hover
 {
@@ -431,7 +452,7 @@ header h1:hover
 }
 .footercontact a:visited
 {
-	color: black;
+	color: blue;
 }
 .footercontact a:visited:hover
 {
